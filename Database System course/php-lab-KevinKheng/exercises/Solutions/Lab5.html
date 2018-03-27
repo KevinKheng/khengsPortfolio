@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise5 SearchingForABook</title>
+</head>
+<body>
+    <h1> Book-O-Rama Catalog Search</h1>
+    <!-- This FORM is where we refrecen when the action (button) is pressed. it goes to that action file location -->
+    
+    <form action="Lab5.php" method="post">
+        Choose Search Type <br/>
+        <select name="searchtype">
+            <option value="author">Author</option>
+            <option value="title">Title</option>
+            <option value="isbn">ISBN</option>
+        </select>
+        <br/>
+        Enter Search Term: <br/>
+        <input type="text" name="searchterm" size="40"/>
+        <br/>
+        
+        <input type="submit" name="Submit" value="Search"/>
+    </form>
+</body>
+</html>

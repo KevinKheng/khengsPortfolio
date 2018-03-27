@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Book-O-Rama Catalog New Book Entry</title>
+</head>
+
+<body>
+	<h1> Book-O-Rama New Book Entry </h1>
+	
+	<form action="insert_book.php" method="post">
+		<p>ISBN <input type="text" name="ISBN" maxlength="13" size="13"/></p>
+		<p>Author <input type="text" name="Author" maxlength="30" size="30"/></p>
+		<p>Title <input type="text" name="Title" maxlength="60" size="30"/></p>
+		<p>Price $<input type="text" name="Price" maxlength="7" size="7"/></p>
+
+		<input type="submit" name="submit" value="Add Book" />
+	</form>
+</body>
+
+</html>
