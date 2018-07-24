@@ -1,3 +1,6 @@
 [submodule "KlumpSpeak"]
 	path = KlumpSpeak
 	url = https://github.com/drVulter/KlumpSpeak
+[submodule "Software-Capstone-Project"]
+	path = Software-Capstone-Project
+	url = https://github.com/Ahmaddahshan/Software-Capstone-Project
